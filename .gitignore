@@ -1,0 +1,7 @@
+# Segredos (nunca sobem)
+.env
+
+# Arquivos de teste locais
+teste.docx
+teste.pdf
+*.docx.docx

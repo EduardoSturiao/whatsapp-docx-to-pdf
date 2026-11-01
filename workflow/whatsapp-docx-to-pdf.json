@@ -1,0 +1,4 @@
+cd "C:\Users\User\whatsapp-docx-to-pdf"
+mkdir workflow -Force
+Get-Clipboard | Set-Content -Path "workflow\whatsapp-docx-to-pdf.json" -Encoding utf8
+Get-Content "workflow\whatsapp-docx-to-pdf.json" -TotalCount 5

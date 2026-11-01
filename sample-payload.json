@@ -1,0 +1,19 @@
+{
+  "event": "messages.upsert",
+  "instance": "pdfbot",
+  "data": {
+    "key": {
+      "remoteJid": "5521999999999@s.whatsapp.net",
+      "fromMe": false,
+      "id": "3EB0TESTE123456"
+    },
+    "pushName": "Cliente Teste",
+    "message": {
+      "documentMessage": {
+        "fileName": "teste.docx",
+        "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    "messageType": "documentMessage"
+  }
+}
