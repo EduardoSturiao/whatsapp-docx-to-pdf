@@ -6,7 +6,7 @@ Bot de WhatsApp que recebe um arquivo Word (.doc/.docx) e devolve o mesmo docume
 
 **Custo:** zero. Tudo é open source e roda localmente.
 
-> **Status:** pipeline de conversão testado de ponta a ponta no n8n (webhook simulado → filtro → conversão → PDF). Conexão com número real de WhatsApp em validação.
+> **Status:** testado de ponta a ponta com WhatsApp real (recebimento do .docx → conversão → envio do PDF).
 
 ```
 WhatsApp ──► Evolution API ──webhook──► n8n ──► Gotenberg
